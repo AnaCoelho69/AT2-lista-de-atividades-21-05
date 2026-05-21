@@ -1,0 +1,13 @@
+ 
+    real salario_atual,reajuste,salario_final
+    
+
+    escreva("Qual o salário atual? ")
+    leia(salario_atual)
+    escreva("Qual o percentual de reajuste? ")
+    leia(reajuste)
+
+    reajuste = (reajuste/100)*salario_atual
+    salario_final = salario_atual+reajuste
+
+    escreva("O novo salário é de R$",salario_final)
