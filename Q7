@@ -1,0 +1,16 @@
+
+    inteiro valor = 0,contador = 0,valor_maiscaro = 0
+    cadeia nome,nome_maiscaro
+
+    enquanto(contador < 5){
+      escreva("Qual o nome do produto? ")
+      leia(nome)
+      escreva("Qual o valor do produto? ")
+      leia(valor)
+      contador = contador + 1
+      se(valor > valor_maiscaro){
+        valor_maiscaro = valor
+        nome_maiscaro = nome
+      }
+    }
+    escreva("\nO produto mais caro é ",nome_maiscaro," e seu valor é R$",valor_maiscaro)
