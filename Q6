@@ -1,0 +1,22 @@
+
+  inteiro nota1,nota2,nota3,media
+  cadeia nome
+
+  escreva("Qual o nome do candidato? ")
+  leia(nome)
+  escreva("Nota em Português: ")
+  leia(nota1)
+  escreva("Nota em Matemática: ")
+  leia(nota2)
+  escreva("Nota em Conhecimentos Gerais: ")
+  leia(nota3)
+
+  media = (nota1+nota2+nota3)/3
+  escreva("Média das notas: ",media)
+
+  se(media > 7){
+    escreva("\nCandidato aprovado!")
+  }senao se(media < 5){
+    escreva("\nCandidato reprovado.")
+  }
+
