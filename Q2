@@ -1,0 +1,12 @@
+  
+    inteiro a,b,resultado
+
+    escreva("Digite um valor: ")
+    leia(a)
+    escreva("Digite outro valor: ")
+    leia(b)
+
+    resultado = (a+b)
+    resultado = resultado * resultado
+
+    escreva("\nO quadrado da soma dos valores é ",resultado)
