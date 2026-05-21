@@ -1,1 +1,25 @@
+ inteiro a,b,c,d
+
+  escreva("Qual o primeiro número? ")
+  leia(a)
+  escreva("Qual o segundo número? ")
+  leia(b)
+  escreva("Qual o terceiro número? ")
+  leia(c)
+
+  se(a>b){
+    d=a
+    a=b
+    b=d
+  }se(a>c){
+    d=a
+    a=c 
+    c=d 
+  }se(b>c){
+    d=b
+    b=c 
+    c=d 
+  }
+
+  escreva("\n",a,",",b,",",c)
 
