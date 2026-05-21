@@ -1,1 +1,14 @@
+ inteiro senha,contador = 0
 
+    enquanto(contador < 3){
+      contador = contador+1
+      escreva("Digite a senha: ")
+      leia(senha)
+
+      se(senha == 2025){
+        escreva("Acesso liberado.")
+        contador = 3
+      }senao se(contador == 3){
+        escreva("Acesso bloqueado.")
+      }
+    }
