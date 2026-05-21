@@ -1,0 +1,14 @@
+  
+    real a,b,troca
+
+    escreva("Digite um valor: ")
+    leia(a)
+    troca = a
+    escreva("Digite outro valor: ")
+    leia(b)
+
+    escreva("Então A = ",a," e B = ",b)
+
+    a = b
+    b = troca
+    escreva("\nAgora, trocando valores, A = ",a, " e B = ",b)
