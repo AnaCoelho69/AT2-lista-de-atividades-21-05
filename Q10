@@ -1,1 +1,14 @@
+inteiro avaliacao,notas1=0,notas2=0,contador=0
 
+    enquanto(contador < 6){
+      escreva("Nível de satisfação -->|1| |2| |3| |4| |5|\n")
+      leia(avaliacao)
+      contador = contador+1
+
+      se(avaliacao>=4){
+        notas1 = notas1+1
+      }senao{
+        notas2 = notas2+1
+      }
+    }
+    escreva("\nAvaliações acima ou iguais a 4: ",notas1,"\nAvaliações abaixo de 4: ",notas2)
