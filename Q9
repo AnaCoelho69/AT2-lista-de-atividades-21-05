@@ -1,1 +1,19 @@
+inteiro opcao,contagem=0
 
+    enquanto(contagem ==0){
+      escreva("\n1 → Ver saldo \n2 → Realizar depósito \n3 → Exibir mensagem “Atendimento em andamento” \n4 → Encerrar atendimento\n")
+      leia(opcao)
+
+      se(opcao == 4){
+        contagem = 1
+      }senao{
+        escolha(opcao){
+          caso 1: escreva("\nSaldo: R$ 1.000,00\n")
+                pare
+          caso 2: escreva("\nRealisando depósito...\n")
+                pare
+          caso 3: escreva("\nAtendimento em andamento.\n")
+                pare
+        }
+      }
+      }
